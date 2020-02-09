@@ -84,11 +84,11 @@ def part4b(filename, password=None):
         part4a(filename, u_bytes.decode('ascii'), password)
 
 if __name__ == "__main__":
-##    part1(3)  # odd!
-##    part1(4)  # even!
-##    part2()
-##    part3("ratrace")  # False
-##    part3("racecar")  # True
+    part1(3)  # odd!
+    part1(4)  # even!
+    part2()
+    part3("ratrace")  # False
+    part3("racecar")  # True
     part4a("secret.txt", "naitian", "p4ssw0rd")
     part4b("secret.txt")
     part4b("secret.txt", password="p4ssw0rd!")
